@@ -30,7 +30,7 @@
 		BB66827F2633C4EA00C5515F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		BB6682822633D03000C5515F /* HideKeyBoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyBoardExtension.swift; sourceTree = "<group>"; };
 		BBAA2AA82633E27900703BD0 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
-		BBBBFE85262B6C2300D597EB /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBBFE85262B6C2300D597EB /* Tarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarefas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBBFE88262B6C2300D597EB /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		BBBBFE8A262B6C2300D597EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBBBFE8C262B6C2400D597EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		BBBBFE86262B6C2300D597EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBBBFE85262B6C2300D597EB /* Devote.app */,
+				BBBBFE85262B6C2300D597EB /* Tarefas.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBBBFE84262B6C2300D597EB /* Devote */ = {
+		BBBBFE84262B6C2300D597EB /* Tarefas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBBBFE99262B6C2400D597EB /* Build configuration list for PBXNativeTarget "Devote" */;
+			buildConfigurationList = BBBBFE99262B6C2400D597EB /* Build configuration list for PBXNativeTarget "Tarefas" */;
 			buildPhases = (
 				BBBBFE81262B6C2300D597EB /* Sources */,
 				BBBBFE82262B6C2300D597EB /* Frameworks */,
@@ -171,9 +171,9 @@
 			);
 			dependencies = (
 			);
-			name = Devote;
+			name = Tarefas;
 			productName = Devote;
-			productReference = BBBBFE85262B6C2300D597EB /* Devote.app */;
+			productReference = BBBBFE85262B6C2300D597EB /* Tarefas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BBBBFE80262B6C2300D597EB /* Build configuration list for PBXProject "Devote" */;
+			buildConfigurationList = BBBBFE80262B6C2300D597EB /* Build configuration list for PBXProject "Tarefas" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -203,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBBBFE84262B6C2300D597EB /* Devote */,
+				BBBBFE84262B6C2300D597EB /* Tarefas */,
 			);
 		};
 /* End PBXProject section */
@@ -409,7 +409,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBBBFE80262B6C2300D597EB /* Build configuration list for PBXProject "Devote" */ = {
+		BBBBFE80262B6C2300D597EB /* Build configuration list for PBXProject "Tarefas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBBBFE97262B6C2400D597EB /* Debug */,
@@ -418,7 +418,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBBBFE99262B6C2400D597EB /* Build configuration list for PBXNativeTarget "Devote" */ = {
+		BBBBFE99262B6C2400D597EB /* Build configuration list for PBXNativeTarget "Tarefas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBBBFE9A262B6C2400D597EB /* Debug */,

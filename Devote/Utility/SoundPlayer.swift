@@ -5,16 +5,21 @@
 //  Created by Manoel Filho on 24/04/21.
 //
 
-import SwiftUI
+import Foundation
+import AVFoundation
 
-struct SoundPlayer: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+/*
+    Método usado para torcar qualquer áudio disponível nos arquivos de um projeto
+ */
+var audioPlayer: AVAudioPlayer?
 
-struct SoundPlayer_Previews: PreviewProvider {
-    static var previews: some View {
-        SoundPlayer()
+func playSound(sound: String, type: String){
+    if let path = Bundle.main.path(forResource: sound, ofType: type){
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
+            audioPlayer?.play()
+        }catch{
+            print("Não pôde encontrar e tocar o som")
+        }
     }
 }

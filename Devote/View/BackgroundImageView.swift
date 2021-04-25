@@ -9,7 +9,12 @@ import SwiftUI
 
 struct BackgroundImageView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("bg")
+            .antialiased(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+            .resizable()
+            .scaledToFill()
+            .ignoresSafeArea(.all)
+            //.padding()
     }
 }
 

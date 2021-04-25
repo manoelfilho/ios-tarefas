@@ -7,14 +7,30 @@
 
 import SwiftUI
 
-struct CheckBoxStyle: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct CheckBoxStyle: ToggleStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        return HStack {
+            Image(systemName: configuration.isOn ? "checkmark.circle.fill" : "circle")
+                .foregroundColor(configuration.isOn ? .green : .primary)
+                .font(.system(size: 30, weight: .semibold, design: .rounded))
+                .onTapGesture {
+                    configuration.isOn.toggle()
+                    if configuration.isOn {
+                        //playSound(sound: "sound-tap", type: "mp3")
+                        feedback.notificationOccurred(.success)
+                    }
+                }
+            configuration.label
+        }//:HStack
     }
 }
 
+//MARK: - PREVIEW
 struct CheckBoxStyle_Previews: PreviewProvider {
     static var previews: some View {
-        CheckBoxStyle()
+        Toggle("Label", isOn: .constant(true))
+            .toggleStyle(CheckBoxStyle())
+            .padding()
+            .previewLayout(.sizeThatFits)
     }
 }
