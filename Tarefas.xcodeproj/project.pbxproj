@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB6682802633C4EA00C5515F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66827F2633C4EA00C5515F /* Constant.swift */; };
+		BB6682832633D03000C5515F /* HideKeyBoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6682822633D03000C5515F /* HideKeyBoardExtension.swift */; };
+		BBAA2AA92633E27900703BD0 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAA2AA82633E27900703BD0 /* BlankView.swift */; };
 		BBBBFE89262B6C2300D597EB /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBFE88262B6C2300D597EB /* DevoteApp.swift */; };
 		BBBBFE8B262B6C2300D597EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBFE8A262B6C2300D597EB /* ContentView.swift */; };
 		BBBBFE8D262B6C2400D597EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBBFE8C262B6C2400D597EB /* Assets.xcassets */; };
 		BBBBFE90262B6C2400D597EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBBFE8F262B6C2400D597EB /* Preview Assets.xcassets */; };
 		BBBBFE92262B6C2400D597EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBFE91262B6C2400D597EB /* Persistence.swift */; };
 		BBBBFE95262B6C2400D597EB /* Devote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBBBFE93262B6C2400D597EB /* Devote.xcdatamodeld */; };
+		BBBBFEA0262B6D8000D597EB /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBBBFE9D262B6D8000D597EB /* sound-rise.mp3 */; };
+		BBBBFEA1262B6D8000D597EB /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBBBFE9E262B6D8000D597EB /* sound-tap.mp3 */; };
+		BBBBFEA2262B6D8000D597EB /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBBBFE9F262B6D8000D597EB /* sound-ding.mp3 */; };
+		BBBE84FA2634C2D900D5CEEF /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE84F92634C2D900D5CEEF /* SoundPlayer.swift */; };
+		BBC1CD702633D992004AE4AF /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1CD6F2633D992004AE4AF /* BackgroundImageView.swift */; };
+		BBC1CD732633DB6E004AE4AF /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1CD722633DB6E004AE4AF /* NewTaskItemView.swift */; };
+		BBE453DD2633EE5B00CFB6FA /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE453DC2633EE5B00CFB6FA /* ListRowItemView.swift */; };
+		BBE453E02633F1EB00CFB6FA /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE453DF2633F1EB00CFB6FA /* CheckBoxStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB66827F2633C4EA00C5515F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BB6682822633D03000C5515F /* HideKeyBoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyBoardExtension.swift; sourceTree = "<group>"; };
+		BBAA2AA82633E27900703BD0 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		BBBBFE85262B6C2300D597EB /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBBFE88262B6C2300D597EB /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		BBBBFE8A262B6C2300D597EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +38,14 @@
 		BBBBFE91262B6C2400D597EB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BBBBFE94262B6C2400D597EB /* Devote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Devote.xcdatamodel; sourceTree = "<group>"; };
 		BBBBFE96262B6C2400D597EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBBFE9D262B6D8000D597EB /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		BBBBFE9E262B6D8000D597EB /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		BBBBFE9F262B6D8000D597EB /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		BBBE84F92634C2D900D5CEEF /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		BBC1CD6F2633D992004AE4AF /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		BBC1CD722633DB6E004AE4AF /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		BBE453DC2633EE5B00CFB6FA /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		BBE453DF2633F1EB00CFB6FA /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +78,15 @@
 		BBBBFE87262B6C2300D597EB /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				BBBBFEA9262B6E1800D597EB /* Style */,
+				BBBBFEA8262B6E0800D597EB /* Utility */,
+				BBBBFEA7262B6DFD00D597EB /* Extension */,
+				BBBBFEA4262B6DAD00D597EB /* Sound */,
+				BBBBFEA5262B6DEE00D597EB /* View */,
+				BBBBFEAA262B6E4700D597EB /* Model */,
 				BBBBFE88262B6C2300D597EB /* DevoteApp.swift */,
-				BBBBFE8A262B6C2300D597EB /* ContentView.swift */,
 				BBBBFE8C262B6C2400D597EB /* Assets.xcassets */,
-				BBBBFE91262B6C2400D597EB /* Persistence.swift */,
 				BBBBFE96262B6C2400D597EB /* Info.plist */,
-				BBBBFE93262B6C2400D597EB /* Devote.xcdatamodeld */,
 				BBBBFE8E262B6C2400D597EB /* Preview Content */,
 			);
 			path = Devote;
@@ -73,6 +98,62 @@
 				BBBBFE8F262B6C2400D597EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBBBFEA4262B6DAD00D597EB /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BBBBFE9F262B6D8000D597EB /* sound-ding.mp3 */,
+				BBBBFE9D262B6D8000D597EB /* sound-rise.mp3 */,
+				BBBBFE9E262B6D8000D597EB /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		BBBBFEA5262B6DEE00D597EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBBBFE8A262B6C2300D597EB /* ContentView.swift */,
+				BBC1CD722633DB6E004AE4AF /* NewTaskItemView.swift */,
+				BBE453DC2633EE5B00CFB6FA /* ListRowItemView.swift */,
+				BBAA2AA82633E27900703BD0 /* BlankView.swift */,
+				BBC1CD6F2633D992004AE4AF /* BackgroundImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBBBFEA7262B6DFD00D597EB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BB6682822633D03000C5515F /* HideKeyBoardExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BBBBFEA8262B6E0800D597EB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BB66827F2633C4EA00C5515F /* Constant.swift */,
+				BBBE84F92634C2D900D5CEEF /* SoundPlayer.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		BBBBFEA9262B6E1800D597EB /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				BBE453DF2633F1EB00CFB6FA /* CheckBoxStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		BBBBFEAA262B6E4700D597EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBBBFE91262B6C2400D597EB /* Persistence.swift */,
+				BBBBFE93262B6C2400D597EB /* Devote.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBBFEA2262B6D8000D597EB /* sound-ding.mp3 in Resources */,
+				BBBBFEA0262B6D8000D597EB /* sound-rise.mp3 in Resources */,
 				BBBBFE90262B6C2400D597EB /* Preview Assets.xcassets in Resources */,
+				BBBBFEA1262B6D8000D597EB /* sound-tap.mp3 in Resources */,
 				BBBBFE8D262B6C2400D597EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,10 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6682832633D03000C5515F /* HideKeyBoardExtension.swift in Sources */,
+				BBC1CD702633D992004AE4AF /* BackgroundImageView.swift in Sources */,
 				BBBBFE92262B6C2400D597EB /* Persistence.swift in Sources */,
 				BBBBFE8B262B6C2300D597EB /* ContentView.swift in Sources */,
+				BBAA2AA92633E27900703BD0 /* BlankView.swift in Sources */,
+				BB6682802633C4EA00C5515F /* Constant.swift in Sources */,
+				BBE453DD2633EE5B00CFB6FA /* ListRowItemView.swift in Sources */,
 				BBBBFE95262B6C2400D597EB /* Devote.xcdatamodeld in Sources */,
+				BBE453E02633F1EB00CFB6FA /* CheckBoxStyle.swift in Sources */,
 				BBBBFE89262B6C2300D597EB /* DevoteApp.swift in Sources */,
+				BBBE84FA2634C2D900D5CEEF /* SoundPlayer.swift in Sources */,
+				BBC1CD732633DB6E004AE4AF /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
